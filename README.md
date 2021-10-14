@@ -10,7 +10,7 @@ This repository is about automate the massive recovery of data from websites i.e
 <li> the project called "mairie_christmas" wich get every city hall emails from a specific region of France </li>
 
 ## Installation
-clone the repo first to install needed gemfiles : bundle install
+Clone the repo first to install needed gemfiles : bundle install
 
 ## How to Use This
 
