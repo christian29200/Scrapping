@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
@@ -26,5 +24,4 @@ link = page.xpath('//a[contains(@href, "./95/")]/@href')
 list_urls = link.map {|x| "https://www.annuaire-des-mairies.com" + x.text[1..-1]}
 
 list_urls.each {|x| get_townhall_emails(x)}
->>>>>>> 896e7cd909b054eb439fbae24636f1b146086105
 
